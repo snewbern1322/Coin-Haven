@@ -1,0 +1,2 @@
+-finish up login functionality
+-fix loading landing page screen. something with loadmainframe method and mainfromefmxl file
