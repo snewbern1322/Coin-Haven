@@ -18,8 +18,8 @@ public class App extends Application {
             primaryStage.setScene(scene);
 
             //set stage dimensions
-            primaryStage.setWidth(1080);
-            primaryStage.setHeight(650);
+            primaryStage.setWidth(800);
+            primaryStage.setHeight(600);
 
             primaryStage.show();
         } catch (Exception e) {

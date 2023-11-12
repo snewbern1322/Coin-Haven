@@ -3,8 +3,9 @@
 }
 /*logo container styles*/
 .login_logo_container {
-    -fx-background-color: rgb(117, 149, 254);
+    -fx-background-color: rgba(117, 149, 254, 0.483);
     -fx-alignment: center;
+    -fx-background-radius: 30;
 }
 
 
