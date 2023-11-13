@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="13.0" layoutY="10.0" prefHeight="297.0" prefWidth="841.0" styleClass="top_frame" stylesheets="@mainframe.css">
+         <children>
+            <Text layoutX="25.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance">
+               <font>
+                  <Font name="Yu Gothic Light" size="17.0" />
+               </font>
+            </Text>
+            <Line endX="731.3333129882812" layoutX="81.0" layoutY="23.0" opacity="0.1" startX="-60.5" />
+            <Text fill="#0033ff" layoutX="57.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Current Balance:">
+               <font>
+                  <Font name="Yu Gothic UI Semilight" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#0044ff" layoutX="512.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Cards">
+               <font>
+                  <Font name="Yu Gothic UI Semilight" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="319.0" prefHeight="265.0" prefWidth="404.0" styleClass="top_frame" stylesheets="@mainframe.css">
+         <children>
+            <Text layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accounts">
+               <font>
+                  <Font name="Yu Gothic Light" size="17.0" />
+               </font>
+            </Text>
+            <Line endX="176.33334350585938" layoutX="83.0" layoutY="27.0" opacity="0.1" startX="-63.833335876464844" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="434.0" layoutY="319.0" prefHeight="265.0" prefWidth="417.0" styleClass="top_frame" stylesheets="@mainframe.css">
+         <children>
+            <Text layoutX="22.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actions">
+               <font>
+                  <Font name="Yu Gothic Light" size="17.0" />
+               </font>
+            </Text>
+            <Line endX="176.33334350585938" layoutX="77.0" layoutY="28.0" opacity="0.1" startX="-63.833335876464844" />
+            <AnchorPane layoutX="22.0" layoutY="44.0" prefHeight="53.0" prefWidth="335.0" style="-fx-background-radius: 30;" styleClass="inner_box_frame" stylesheets="@mainframe.css" />
+            <AnchorPane layoutX="23.0" layoutY="112.0" prefHeight="53.0" prefWidth="335.0" style="-fx-background-radius: 30;" styleClass="inner_box_frame" stylesheets="@mainframe.css" />
+            <AnchorPane layoutX="21.0" layoutY="183.0" prefHeight="53.0" prefWidth="335.0" style="-fx-background-radius: 30;" styleClass="inner_box_frame" stylesheets="@mainframe.css" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

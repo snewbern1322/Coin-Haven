@@ -1,6 +1,5 @@
--finish up login functionality (login)
--create mainframe layout functionality (animations, windows, etc)
+
+-create mainframe layout functionality (animations, etc)
 -create mainframe layout button functionality and db (user data, updates, etc)
 
 
--create terminal code to directly acces db
