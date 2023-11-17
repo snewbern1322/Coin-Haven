@@ -31,7 +31,7 @@
                   <Insets top="10.0" />
                </padding>
                <children>
-                  <Button mnemonicParsing="false" onAction="#handleAddFunds" prefHeight="63.0" prefWidth="101.0" style="-fx-background-radius: 30; -fx-background-color: #5D77FE;" text="Add Funds" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#handleAddFunds" prefHeight="63.0" prefWidth="101.0" style="-fx-background-radius: 30; -fx-background-color: #5D77FE;" text="Add Funds">
                      <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
@@ -41,7 +41,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#handleHomePage" prefHeight="63.0" prefWidth="101.0" style="-fx-background-radius: 30; -fx-background-color: #5D77FE;" text="Home" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#handleHomePage" prefHeight="63.0" prefWidth="101.0" style="-fx-background-radius: 30; -fx-background-color: #5D77FE;" text="Home">
                      <VBox.margin>
                         <Insets left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>

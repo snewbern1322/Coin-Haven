@@ -18,8 +18,16 @@
 }
 
 .inner_box_frame{
-    -fx-background-color: rgb(228, 228, 228);
+    -fx-background-color: rgb(220, 220, 220);
     -fx-background-radius: 30
     ;
     
+}
+
+.add_button {
+    -fx-background-color: rgba(0, 98, 255, 0.282);
+}
+
+.mainAnchorPane {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #ffffff);
 }
