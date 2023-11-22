@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homeScreenController">
    <children>
       <AnchorPane layoutX="13.0" layoutY="10.0" prefHeight="297.0" prefWidth="841.0" styleClass="top_frame" stylesheets="@mainframe.css">
          <children>
@@ -57,37 +57,26 @@
                         <Font name="Yu Gothic UI Semilight" size="18.0" />
                      </font>
                   </Text>
-                  <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="43.0" style="-fx-background-radius: 15;" styleClass="add_button" stylesheets="@mainframe.css" text="➕" textFill="WHITE">
-                     <effect>
-                        <DropShadow height="161.27" radius="80.24000000000001" width="161.69" />
-                     </effect>
-                  </Button>
+                  <ButtonBar layoutX="68.0" layoutY="8.0" prefHeight="40.0" prefWidth="200.0" />
+                  <Button layoutX="31.0" layoutY="13.0" minWidth="22.0" mnemonicParsing="false" onAction="#handleAddNewCard" prefHeight="25.0" text="+" />
                </children></AnchorPane>
             <AnchorPane layoutX="23.0" layoutY="112.0" prefHeight="53.0" prefWidth="335.0" style="-fx-background-radius: 30;" styleClass="inner_box_frame" stylesheets="@mainframe.css">
                <children>
-                  <Text fill="#0033ff" layoutX="67.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Checking Account" wrappingWidth="232.3671875">
+                  <Text fill="#0033ff" layoutX="74.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Checking Account" wrappingWidth="232.3671875">
                      <font>
                         <Font name="Yu Gothic UI Semilight" size="18.0" />
                      </font>
                   </Text>
-                  <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="43.0" style="-fx-background-radius: 15;" styleClass="add_button" stylesheets="@mainframe.css" text="➕" textFill="WHITE">
-                     <effect>
-                        <DropShadow height="161.27" radius="80.24000000000001" width="161.69" />
-                     </effect>
-                  </Button>
+                  <Button layoutX="29.0" layoutY="14.0" minWidth="22.0" mnemonicParsing="false" onAction="#handleCreateNewCheckings" prefHeight="25.0" text="+" />
                </children></AnchorPane>
             <AnchorPane layoutX="21.0" layoutY="183.0" prefHeight="53.0" prefWidth="335.0" style="-fx-background-radius: 30;" styleClass="inner_box_frame" stylesheets="@mainframe.css">
                <children>
-                  <Text fill="#0033ff" layoutX="68.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Savings Account" wrappingWidth="232.3671875">
+                  <Text fill="#0033ff" layoutX="71.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Savings Account" wrappingWidth="232.3671875">
                      <font>
                         <Font name="Yu Gothic UI Semilight" size="18.0" />
                      </font>
                   </Text>
-                  <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="43.0" style="-fx-background-radius: 15;" styleClass="add_button" stylesheets="@mainframe.css" text="➕" textFill="WHITE">
-                     <effect>
-                        <DropShadow height="161.27" radius="80.24000000000001" width="161.69" />
-                     </effect>
-                  </Button>
+                  <Button layoutX="32.0" layoutY="14.0" minWidth="22.0" mnemonicParsing="false" onAction="#handleCreateNewSavings" prefHeight="25.0" text="+" />
                </children></AnchorPane>
          </children>
       </AnchorPane>

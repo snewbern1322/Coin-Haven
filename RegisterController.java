@@ -23,7 +23,7 @@ public class RegisterController {
         String password = passwordField.getText(); //gets password entered by user
 
         //Call method from database class to insert the user
-        Database.addUser(username, password);
+        Database2.addUser(username, password);
 
         //after registration is complete, load main frame...
         loadMainFrame();

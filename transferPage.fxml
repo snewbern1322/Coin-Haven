@@ -17,12 +17,12 @@
                   <Font name="Yu Gothic UI Semilight" size="36.0" />
                </font>
             </Text>
-            <Text layoutX="137.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our secure and efficient money transfer page! This feature is designed with your convenience in mind, allowing you to effortlessly transfer funds between accounts with just a few clicks. Experience seamless transactions as you move money within your accounts, ensuring swift and reliable transfers." textAlignment="CENTER" wrappingWidth="512.13671875">
+            <Text layoutX="137.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our secure and efficient money transfer page! This feature is designed with your convenience in mind, allowing you to effortlessly transfer funds between accounts with just a few clicks. Experience seamless transactions as you move money within your accounts, ensuring swift and reliable transfers." wrappingWidth="512.13671875">
                <font>
-                  <Font name="Yu Gothic Light" size="14.0" />
+                  <Font size="15.0" />
                </font>
             </Text>
-            <Text layoutX="278.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To begin you must have two things: -Two or more accounts created -Money added in one or more account(s)" wrappingWidth="229.13671875">
+            <Text layoutX="278.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To begin you must have two things: -Two or more accounts created -Money added in one or more account(s)" wrappingWidth="229.13671875">
                <font>
                   <Font name="Yu Gothic UI Light" size="14.0" />
                </font>
@@ -55,7 +55,7 @@
             <Button layoutX="655.0" layoutY="149.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="95.0" style="-fx-background-radius: 15; -fx-background-color: CCD6FE;" styleClass="top_frame" stylesheets="@login.css" text="Confirm" textFill="#323232" />
             <ComboBox layoutX="47.0" layoutY="124.0" prefHeight="25.0" prefWidth="135.0" styleClass="inner_box_frame" stylesheets="@mainframe.css" />
             <ComboBox layoutX="221.0" layoutY="124.0" prefHeight="25.0" prefWidth="135.0" style="-fx-background-radius: 12;" styleClass="inner_box_frame" />
-            <TextField layoutX="433.0" layoutY="124.0" style="-fx-background-radius: 12;" />
+            <TextField layoutX="433.0" layoutY="124.0" promptText="\$" style="-fx-background-radius: 12;" />
          </children>
       </AnchorPane>
    </children>
