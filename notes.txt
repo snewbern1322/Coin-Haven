@@ -1,6 +1,6 @@
 -give functionality to program (Buttons, db, user info, etc)
 
--add card, create checkings and savings
+
 -make user info appear in user settings
 -make added accounts appear in dashboard
 -make funds of selected account appear in dashboard

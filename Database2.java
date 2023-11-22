@@ -54,6 +54,22 @@ public class Database2 {
             }
         }
 
+    //adding new savings account (dashboard)
+        public static void addSavingsAccount(String accountName, String dateCreated, String startingBalance) {
+            try (Connection connection = DriverManager.getConnection(DATABASE_URL);
+                 Statement statement = connection.createStatement()) {
+        
+                String sql = "INSERT INTO savings_accounts (account_name, date_created, starting_balance) " +
+                        "VALUES ('" + accountName + "', '" + dateCreated + "', '" + startingBalance + "')";
+        
+                statement.executeUpdate(sql);
+        
+                System.out.println("Savings account added successfully");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
 
     //login page
     public static void addUser(String username, String password) {
