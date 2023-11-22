@@ -25,6 +25,9 @@ public class addSavingsController {
          // Call a method to add the checking account to the database
         Database2.addSavingsAccount(accountName, dateCreated, startingBalance);
 
+        //Call the method in homeScreenController to update the main page
+        homeScreenController.addAccountButton(accountName);
+
         //close window
         closeWindow();
     }

@@ -2,7 +2,6 @@
 
 
 -make user info appear in user settings
--make added accounts appear in dashboard
 -make funds of selected account appear in dashboard
 -make create cards appear in dashboard
 -assign added funds to accounts
